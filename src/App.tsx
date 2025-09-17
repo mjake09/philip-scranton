@@ -79,18 +79,20 @@ function App() {
       </header>
 
       {/* Hero Section */}
-      <section id="home" className="relative py-16 px-4 sm:px-6 lg:px-8">
-        <div className="absolute inset-0 overflow-hidden">
-          <iframe
-            src="https://www.youtube.com/embed/WWJ672iZKNQ?autoplay=1&mute=1&controls=0&loop=1&playlist=WWJ672iZKNQ&playsinline=1"
-            className="absolute w-full h-full object-cover scale-150"
-            title="Background video"
-            allow="autoplay; encrypted-media"
-            frameBorder="0"
-          ></iframe>
+      <section id="home" className="relative w-full min-h-[600px] flex items-center justify-center overflow-hidden px-0 py-0">
+        <div className="absolute inset-0 w-full h-full overflow-hidden">
+          <div className="relative w-full h-full pt-[56.25%]">
+            <iframe
+              src="https://www.youtube.com/embed/WWJ672iZKNQ?autoplay=1&mute=1&controls=0&loop=1&playlist=WWJ672iZKNQ&playsinline=1%22"
+              className="absolute top-1/2 left-1/2 w-[150%] h-[150%] -translate-x-1/2 -translate-y-1/2"
+              title="Background video"
+              allow="autoplay; encrypted-media"
+              frameBorder="0"
+            ></iframe>
+          </div>
           <div className="absolute inset-0 bg-gradient-to-br from-amber-50/90 to-orange-50/90"></div>
         </div>
-        <div className="relative max-w-7xl mx-auto">
+        <div className="relative max-w-7xl mx-auto z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Book Cover */}
             <div className="flex justify-center lg:justify-end order-1 lg:order-2">
