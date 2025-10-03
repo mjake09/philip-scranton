@@ -162,13 +162,10 @@ function App() {
             </div>
             <div className="order-2">
               <h3 className="text-2xl font-semibold text-gray-900 mb-4 sm:mb-6 font-playfair">
-                Sarah Mitchell
+                J. Philip Scranton
               </h3>
               <p className="text-gray-700 leading-relaxed mb-4 font-poppins">
-                Sarah Mitchell is an acclaimed novelist and former travel journalist who has spent over a decade exploring the human condition through storytelling. Her work has been featured in numerous literary magazines and she holds an MFA in Creative Writing from Columbia University.
-              </p>
-              <p className="text-gray-700 leading-relaxed font-poppins">
-                When not writing, Sarah enjoys hiking, photography, and discovering hidden coffee shops around the world. "The Journey Within" is her debut novel, inspired by her own transformative experiences traveling solo across three continents.
+                J. Philip Scranton is a graduate of Mid-Continent University with a degree in Biblical Studies and has pursued graduate work in Biblical Languages. He served as pastor of two churches, has spoken at numerous conferences, and has authored several magazine articles, particularly in Old Testament studies. Samson as Christ: The Marvelous Opener of the Gates is another title available by the author.
               </p>
             </div>
           </div>
@@ -249,6 +246,7 @@ function App() {
               </a>
             </div>
           </div>
+
         </div>
       </section>
 
@@ -269,7 +267,7 @@ function App() {
               <div className="flex flex-col justify-center items-center md:items-start h-full text-center md:text-left bg-white rounded-xl shadow-lg p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-4 font-playfair">Get in Touch</h3>
                 <p className="text-gray-700 mb-2 font-poppins">I'd love to hear from you! For inquiries, collaborations, or feedback, reach out via email:</p>
-                <a href="mailto:philip.scranton.author@gmail.com" className="text-amber-700 font-semibold text-lg break-all hover:underline">philip.scranton.author@gmail.com</a>
+                <a href="mailto:phil.scranton@yahoo.com" className="text-amber-700 font-semibold text-lg break-all hover:underline">phil.scranton@yahoo.com</a>
               </div>
             </div>
           </section>
